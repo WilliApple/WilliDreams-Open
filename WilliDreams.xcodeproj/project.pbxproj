@@ -26,7 +26,6 @@
 		BA6475772D68463100EEDF6B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BA6475762D68463100EEDF6B /* FirebaseAuth */; };
 		BA6475792D68463100EEDF6B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BA6475782D68463100EEDF6B /* FirebaseFirestore */; };
 		BA64757B2D68463100EEDF6B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = BA64757A2D68463100EEDF6B /* FirebaseStorage */; };
-		BA64757E2D68467900EEDF6B /* WilliKit in Frameworks */ = {isa = PBXBuildFile; productRef = BA64757D2D68467900EEDF6B /* WilliKit */; };
 		BA6475822D6846E700EEDF6B /* LoadingOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64757F2D6846E700EEDF6B /* LoadingOverlayView.swift */; };
 		BA6475832D6846E700EEDF6B /* SDLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6475802D6846E700EEDF6B /* SDLoadingView.swift */; };
 		BA6475852D68470B00EEDF6B /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6475842D68470B00EEDF6B /* Authentication.swift */; };
@@ -124,7 +123,6 @@
 			files = (
 				BA1D02662C56256700B1BD2C /* FirebaseAuth in Frameworks */,
 				BA6475772D68463100EEDF6B /* FirebaseAuth in Frameworks */,
-				BA64757E2D68467900EEDF6B /* WilliKit in Frameworks */,
 				BA1D026C2C56256700B1BD2C /* FirebaseStorage in Frameworks */,
 				BA1D02682C56256700B1BD2C /* FirebaseFirestore in Frameworks */,
 				B1511F5A2E5A84F30073E86C /* FirebaseAI in Frameworks */,
@@ -343,7 +341,6 @@
 			);
 			mainGroup = BA70BE712C49061300D5BAB1;
 			packageReferences = (
-				BA6475742D6845B400EEDF6B /* XCRemoteSwiftPackageReference "WilliKit" */,
 				BA6475752D68463100EEDF6B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = BA70BE7B2C49061300D5BAB1 /* Products */;
@@ -664,14 +661,6 @@
 				minimumVersion = 10.29.0;
 			};
 		};
-		BA6475742D6845B400EEDF6B /* XCRemoteSwiftPackageReference "WilliKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/WEcompany36/WilliKit";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
 		BA6475752D68463100EEDF6B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -717,11 +706,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = BA6475752D68463100EEDF6B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
-		};
-		BA64757D2D68467900EEDF6B /* WilliKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = BA6475742D6845B400EEDF6B /* XCRemoteSwiftPackageReference "WilliKit" */;
-			productName = WilliKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
