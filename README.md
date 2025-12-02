@@ -56,4 +56,4 @@ Download the Config File, and add it to your Xcode project!
 Congrats! You now have a working copy of WilliDreams! 
 
 ### Conclusion
-I am really excited to see what all of you do with WilliDreams' code! Please DM me on Instagram @willgallegos3607, or on X @WilliApple to show me what you do with WilliDreams, whether its just using the Firebase feature of the project, or expanding on the concept of WilliDreams, I am excited to see what you do!
+I am really excited to see what all of you do with WilliDreams' code! My only request is that you DM me on Instagram @willgallegos3607, or on X @WilliApple to show me what you do with WilliDreams, whether its just using the Firebase feature of the project, or expanding on the concept of WilliDreams, I am excited to see what you do!
